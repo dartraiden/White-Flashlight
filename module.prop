@@ -1,0 +1,7 @@
+id=White_Flashlight
+name=White Flashlight
+version=v1.0
+versionCode=1
+author=dartraiden
+description=Enable white flashlight on Xiaomi Redmi Note 4 Snapdragon. Supports custom ROMs, as well as Treble-based ROMs
+minMagisk=1500
