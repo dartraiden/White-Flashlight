@@ -5,8 +5,6 @@ MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
 # Enable Hi_performance mode of your wcd9xx DAC
-su
-chmod 0777 $MODDIR/post-fs-data.sh
 busybox echo "200" > /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_0/max_brightness
 busybox echo "200" > /sys/class/leds/led:torch_0/brightness
 busybox echo "0" > /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness
